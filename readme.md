@@ -29,6 +29,7 @@ Das Gehäuse selbst ist in [FreeCAD](https://www.freecad.org/) konstruiert und d
 ## Software
 Die Software ist in [Arduino-IDE](https://www.arduino.cc/en/software) geschrieben. Die notwendigen Bibliotheken versuche ich weiter unten zusammenzutragen.
 Der ESP stellt einen WLAN-Access-Point zu Verfügung. In diesem Netz serviert der ESP die Webseite, mit der die Uhr gestellt wird. Die Steuerung wird über http-request (POST) realisiert.
+Die in [Brave](https://brave.com/) enthaltene KI hat mir wirklich gut geholfen, den Teil der Verarbeitung der http-requests im Backend einfach zu implementieren.
 Ich hab die ASCII-Tabelle abprogrammiert, die Uhr kann mit ihrem 3x5 großen Anzeigefeld alle Buchstaben, Ziffern und ein paar Sonderzeichen darstellen.
 
 ---
