@@ -1,0 +1,6 @@
+Stückliste exportiert aus C:/Users/User/Documents/EAGLE/projects/BinClock/BinClock.sch am 22.11.2024 17:44
+
+Qty Value         Device        Package        Parts                                                                                                    Description                       ESP32-DEVKITV1 POPULARITY SPICEPREFIX
+17                LEDSQR2X5     LED2X5         HR_0, HR_1, HR_2, HR_3, HR_4_DIG, MN_0, MN_1, MN_2, MN_3, MN_4, MN_5, SC_0, SC_1, SC_2, SC_3, SC_4, SC_5 LED                                              2                     
+1   200           R-EU_0204/7   0204/7         R_DIG                                                                                                    RESISTOR, European symbol                        79         R          
+1   ESP32DEVKITV1 ESP32DEVKITV1 ESP32-DEVKITV1 BOARD1                                                                                                   https://github.com/shridattdudhat                                      
