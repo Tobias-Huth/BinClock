@@ -36,10 +36,10 @@ Ich hab die ASCII-Tabelle abprogrammiert, die Uhr kann mit ihrem 3x5 großen Anz
 ---
 
 ## Stückliste
-17 3-mm-LEDS wie diese :https://www.amazon.de/gp/product/B01BTYHOMC/
-PCB nach EAGLE-Plan
-ESP32 https://www.amazon.de/gp/product/B0DGG865GM/
-2kOhm widerstand als Bremswiderstand für die LED am gigitalen Ausgang
+- 17 3-mm-LEDS wie diese :https://www.amazon.de/gp/product/B01BTYHOMC/
+- PCB nach EAGLE-Plan
+- ESP32 https://www.amazon.de/gp/product/B0DGG865GM/
+- 2kOhm widerstand als Bremswiderstand für die LED am gigitalen Ausgang
 
 ---
 ---
@@ -70,7 +70,7 @@ I programmed the ASCII table, and the clock can display all letters, numbers, an
 
 ---
 ## Parts List
-17 3mm LEDs like these: https://www.amazon.de/gp/product/B01BTYHOMC/
-PCB according to EAGLE plan
-ESP32: https://www.amazon.de/gp/product/B0DGG865GM/
-2kOhm resistor as a braking resistor for the LED at the digital output
+- 17 3mm LEDs like these: https://www.amazon.de/gp/product/B01BTYHOMC/
+- PCB according to EAGLE plan
+- ESP32: https://www.amazon.de/gp/product/B0DGG865GM/
+- 2kOhm resistor as a braking resistor for the LED at the digital output
