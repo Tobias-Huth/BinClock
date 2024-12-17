@@ -3,7 +3,7 @@ The idea had been around for a while, and since this special thing couldn’t be
 
 ### TODO: Add image here
 ## General:
-The entire project is based on an ESP32, which has 16 PWM-capable outputs. This is almost enough to display the time:
+The entire project is based on an ESP32 (e.g. [this one](https://www.amazon.de/dp/B0DGG865GM)), which has 16 PWM-capable outputs. This is almost enough to display the time:
 
 Minutes and seconds each require 6 bits (0…63)
 The hour display needs 5 bits (0…31). This means that one LED must be connected with a fixed resistor, and all others can be dimmable. Not so bad, let’s do it that way. Now that the basic idea is in place, let’s move on to the implementation.

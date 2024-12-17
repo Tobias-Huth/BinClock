@@ -4,7 +4,7 @@ Die Idee was schon länger vorhanden und nachdem es dieses spezielle Ding nicht 
 ## TODO: Bild hin
 
 ## Allgemein:
-Das ganze Projekt hat einen ESP32 als Kern. Der ESP hat 16 PWM-fähige Ausgänge. Das reicht fast, um die Uhrzeit anzuzeigen:
+Das ganze Projekt hat einen ESP32 (z.B [dieser](https://www.amazon.de/dp/B0DGG865GM)) als Kern. Der ESP hat 16 PWM-fähige Ausgänge. Das reicht fast, um die Uhrzeit anzuzeigen:
 Minuten und Sekunden benötigen jeweils 6 Bit (0..63)
 Die Stundenanzeige braucht 5 Bit (0..31). 
 Das heißt, eine LED muss mit einem Widerstand fest beschalten werden, alle anderen können dimmbar sein. gar nicht so schlecht, machen wir so.
