@@ -1,7 +1,7 @@
 english version below!
 
 # Mega Projekt: Binäre Anzeige der Uhzeit mit LEDS
-Die Idee was schon länger vorhanden und nachdem es dieses spezielle Ding nicht zu kaufen gibt: Hab ich da was gemacht
+Die Idee war schon länger vorhanden und nachdem es dieses spezielle Ding nicht zu kaufen gibt: Hab ich da was gemacht
 ## TODO: Bild hin
 
 ## Allgemein:
