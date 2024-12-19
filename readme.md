@@ -2,7 +2,8 @@ english version below!
 
 # Mega Projekt: Binäre Anzeige der Uhzeit mit LEDS
 Die Idee war schon länger vorhanden und nachdem es dieses spezielle Ding nicht zu kaufen gibt: Hab ich da was gemacht
-## TODO: Bild hin
+
+![image caption](Collage.png)
 
 ## Allgemein:
 Das ganze Projekt hat einen ESP32 (z.B [dieser](https://www.amazon.de/dp/B0DGG865GM)) als Kern. Der ESP hat 16 PWM-fähige Ausgänge. Das reicht fast, um die Uhrzeit anzuzeigen:
@@ -20,7 +21,6 @@ Damit versteht man die Bedienlogik und die Logik des Tools ganz gut.
 
 Den Plan habe ich dann genutzt, um gerber-files (CNC-Dateien für die Platinen) herzustellen und bei [PCBway](https://www.pcbway.com/) zu bestellen. Die Anleitung [hier](https://www.pcbway.com/helpcenter/generate_gerber/Generate_Gerber_files_in_Eagle.html) hat bei mir sehr gut funktioniert.
 
-TODO: Bild hier rein.
 
 ## CAD / Gehäuse
 Wie man unschwer erkennen kann, ist die Frontplatte eine Lego Bauplatte, 10x6 Noppen. Die Noppen ( ⌀ 4.9 mm) sind mit einem Bohrer 3,3mm ausgebohrt. So passen die 3mm-LEDs locker. Der erste Prototyp mit 3mm goßem Loch hat zwar schön geklemmt, die LEDs vertragen aber die Kräfte beim Aufsetzen nicht gut.
@@ -46,7 +46,8 @@ Ich hab die ASCII-Tabelle abprogrammiert, die Uhr kann mit ihrem 3x5 großen Anz
 # Mega Project: Binary Display of Time with LEDs
 The idea had been around for a while, and since this special thing couldn’t be bought, I decided to make one myself.
 
-### TODO: Add image here
+![image caption](Collage.png)
+
 ## General:
 The entire project is based on an ESP32 (e.g. [this one](https://www.amazon.de/dp/B0DGG865GM)), which has 16 PWM-capable outputs. This is almost enough to display the time:
 
@@ -58,8 +59,6 @@ The admittedly very simple circuit diagram for the device is written in [Autodes
 This will help you understand the logic and tool usage quite well.
 
 I used the plan to create gerber files (CNC files for the boards) and ordered them from [PCBway](https://www.pcbway.com/). The instructions [hier](https://www.pcbway.com/helpcenter/generate_gerber/Generate_Gerber_files_in_Eagle.html) worked very well for me.
-
-### TODO: Add image here.
 
 ## CAD / Housing
 As you can easily recognize, the front panel is a Lego building plate, 10x6 studs. The studs (⌀ 4.9 mm) are drilled with a 3.3mm drill bit. This allows the 3mm LEDs to fit snugly. The first prototype with a 3mm large hole did fit nicely, but the LEDs don’t handle the forces of being placed well. The board uses the Lego grid size of 8 mm. This allows the LEDs on the board to fit cleanly into the holes. The housing itself is constructed in [FreeCAD](https://www.freecad.org/) and then printed at home.
