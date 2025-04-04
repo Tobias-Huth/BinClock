@@ -90,6 +90,9 @@ const char* websiteHTML PROGMEM = R"rawliteral(
 
         var since_epoch = now.getTime()
 
+        if (now.dst()) { 
+          since_epoch += 3600
+        }
         document.getElementById("act_sec").value = seconds;
         document.getElementById("act_min").value = minutes;
         document.getElementById("act_hur").value = hours;
