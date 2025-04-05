@@ -79,6 +79,16 @@ const char* websiteHTML PROGMEM = R"rawliteral(
 
     <script>
     // Get current date and time
+    Date.prototype.stdTimezoneOffset = function () {
+    var jan = new Date(this.getFullYear(), 0, 1);
+    var jul = new Date(this.getFullYear(), 6, 1);
+    return Math.max(jan.getTimezoneOffset(), jul.getTimezoneOffset());
+    }
+
+    Date.prototype.isDstObserved = function () {
+        return this.getTimezoneOffset() < this.stdTimezoneOffset();
+    }
+
     function update_time(){
         var now = new Date();
         var seconds = now.getSeconds()
@@ -89,9 +99,8 @@ const char* websiteHTML PROGMEM = R"rawliteral(
         var year   = now.getFullYear()
 
         var since_epoch = now.getTime()
-
-        if (now.dst()) { 
-          since_epoch += 3600
+        if (now.isDstObserved()) { 
+          since_epoch += 3600000
         }
         document.getElementById("act_sec").value = seconds;
         document.getElementById("act_min").value = minutes;
